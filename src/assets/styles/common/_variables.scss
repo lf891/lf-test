@@ -47,3 +47,24 @@ $button-variants-color-default: #fff;
 
 // button icon
 $button-icon-size: .857em;
+
+
+
+
+
+/**
+ * Dropdown
+ */
+
+$dropdown-item-spacing: .571em;
+$dropdown-item-padding-x: .571em;
+$dropdown-item-padding-y: .286em;
+$dropdown-item-background-hover: #f1f4f9;
+$dropdown-item-font-size: .875rem;
+$dropdown-item-line-height: 1.714em;
+$dropdown-menu-padding-x: 1rem;
+$dropdown-menu-padding-y: .875rem;
+$dropdown-menu-border: 1px solid #c9d3dd;
+$dropdown-menu-border-radius: $base-border-radius;
+$dropdown-menu-background: #fff;
+$dropdown-menu-box-shadow: 0 2px 4px rgba(202, 211, 221, .2);
