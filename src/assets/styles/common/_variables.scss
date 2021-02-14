@@ -1,0 +1,49 @@
+/**
+ * Base
+ */
+
+$base-border-radius: .250rem;
+$base-transition-property: all;
+$base-transition-duration: .15s;
+$base-transition-ease: ease-in-out; 
+$base-transition: $base-transition-property $base-transition-duration $base-transition-ease;
+
+
+
+
+
+
+/**
+ * Colors
+ */
+
+$brand-primary: #1b9b45;
+$brand-secondary: #2687e9;
+$brand-danger: #db242a;
+
+
+
+
+
+/**
+ * Button
+ */
+
+$button-padding-x: 1.071em;
+$button-padding-y: .857em;
+$button-border-radius: $base-border-radius;
+$button-font-size: .875rem;
+$button-line-height: 1.143;
+$button-color-default: #1b69c8;
+$button-background-default: #f1f4f9;
+
+// Variants
+$button-variants: (
+  primary: $brand-primary,
+  secondary: $brand-secondary,
+  danger: $brand-danger
+);
+$button-variants-color-default: #fff;
+
+// button icon
+$button-icon-size: .857em;
