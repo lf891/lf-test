@@ -1,0 +1,44 @@
+@import 'fonts/index';
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #e5e5e5;
+  font-family: pingpong-regular, Georgia, sans-serif;
+}
+
+button {
+  font-family: pingpong-regular, Georgia, sans-serif;
+}
+
+.lf-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 40px;
+  background: #fff;
+}
+
+.lf-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px 0;
+}
+
+.lf-grid__col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  margin: 10px 15px;
+}
+
+.lf-divider {
+  height: 1px;
+  margin: 45px 0;
+  border: 0;
+  background: #e5e5e5;
+}
